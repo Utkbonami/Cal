@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      .box {
+        font-size: 72;
+        text-align: center;
+        background-color: red;
+        color: white;
+        display: none;
+      }
+      @media (max-width: 200px) {
+        #box1 {
+          display: block;
+          background-color: cyan;
+          color: black;
+        }
+      }
+      @media (min-width: 200px) and (max-width: 400px) {
+        #box2 {
+          display: block;
+          color: black;
+          background-color: violet;
+        }
+      }
+      @media (min-width: 400px) and (max-width: 500px) {
+        #box3 {
+          display: block;
+          background-color: red;
+        }
+      }
+      @media (min-width: 500px) {
+        #box4 {
+          display: block;
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="box" id="box1">iphone</div>
+      <div class="box" id="box2">Tablet</div>
+      <div class="box" id="box3">Computer</div>
+      <div class="box" id="box4">Wide Screen Computer</div>
+    </div>
+    <div>
+      <h1>Html</h1>
+    </div>
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+      </ul>
+      <ol>
+        <li>1</li>
+        <li>2</li>
+      </ol>
+    </div>
+    <div>
+      <iframe
+        name="myIFrame"
+        scrolling="auto"
+        width="100px"
+        height="100px"
+        style="border: 5px solid #c31818"
+    ><iframe src="https://www.bing.com" frameborder="0"></iframe></iframe>
+    </div>
+    <div><iframe src="https://www.bing.com" frameborder="9"></iframe></div>
+  </body>
+</html>
