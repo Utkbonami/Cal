@@ -1,3 +1,37 @@
 .contanier{
     color: black;
 }
+
+.bg-red{
+    background-color: blue;
+}
+
+.mx-auto{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.m-w-20{
+    max-width: 40vw;
+}
+
+.button{
+   padding: 20px;  
+}
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.row{
+    margin: 8px 0;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
