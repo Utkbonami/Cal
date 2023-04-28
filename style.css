@@ -1,10 +1,27 @@
-.contanier{
-    color: black;
+@media (min-width: 500px) and (max-width: 1300px){
+    .container{
+        background-color: red;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1600px){
+    .container{
+        background-color: blue;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1900px){
+    .container{
+        background-color: cyan;
+    }
+}
+@media (min-width: 1900px) and (max-width: 2200px){
+    .container{
+        background-color: green;
+    }
 }
 
-.bg-red{
-    background-color: blue;
-}
+
+
+
 
 .mx-auto{
     margin: auto;
@@ -34,4 +51,9 @@
     margin: 0 2px;
     border: 2px solid black;
     border-radius: 8px;
+}
+
+.u{
+    display: flex;
+    flex-direction: column;
 }
